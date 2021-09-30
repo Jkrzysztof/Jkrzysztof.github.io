@@ -1,6 +1,22 @@
 <!DOCTYPE HTML>
-<html>
-<head></head>
+<html lang="pl">
+<head>
+    <meta charset="utf-8" />
+    <title>Stylizowanie formularzy</title>      
+    <link rel="stylesheet" href="style.css" type="text/css" />
+     
+</head>
+ 
 <body>
-<p>Just Krzysztof</p></body>
+ 
+    <div id="container">
+        <form>
+           <input type="text" placeholder="Login">
+           <input type="password" placeholder="Hasło" onfocus="this.placeholder=''" onblur="this.placeholder='Hasło'" >
+           <input type="submit" value="Zaloguj się">
+           
+        </form>
+    </div>
+     
+</body>
 </html>
